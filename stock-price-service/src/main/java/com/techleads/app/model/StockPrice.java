@@ -1,4 +1,4 @@
-package com.techleads.com.model;
+package com.techleads.app.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -1,4 +1,4 @@
-package com.techleads.com;
+package com.techleads.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

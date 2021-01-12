@@ -1,12 +1,12 @@
-package com.techleads.com.service;
+package com.techleads.app.service;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
-import com.techleads.com.model.StockPrice;
-import com.techleads.com.repository.StockPriceRespository;
+import com.techleads.app.model.StockPrice;
+import com.techleads.app.repository.StockPriceRespository;
 
 @Service
 public class StockPriceService {

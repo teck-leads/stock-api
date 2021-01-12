@@ -1,4 +1,4 @@
-package com.techleads.com.controller;
+package com.techleads.app.controller;
 
 import java.util.List;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.techleads.com.model.StockPrice;
-import com.techleads.com.service.StockPriceService;
+import com.techleads.app.model.StockPrice;
+import com.techleads.app.service.StockPriceService;
 
 @RestController
 public class StockPriceController {

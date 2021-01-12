@@ -1,11 +1,11 @@
-package com.techleads.com.repository;
+package com.techleads.app.repository;
 
 import java.io.Serializable;
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.techleads.com.model.StockPrice;
+import com.techleads.app.model.StockPrice;
 
 public interface StockPriceRespository extends JpaRepository<StockPrice, Serializable> {
 	
