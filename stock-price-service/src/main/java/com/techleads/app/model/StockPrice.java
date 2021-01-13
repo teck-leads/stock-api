@@ -23,6 +23,7 @@ public class StockPrice {
 	private Integer id;
 	private String name;
 	private Double price;
+	private String portNum;
 	
 	
 	

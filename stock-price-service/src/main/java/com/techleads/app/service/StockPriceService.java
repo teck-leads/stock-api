@@ -25,6 +25,14 @@ public class StockPriceService {
 		}
 		return "NOT FOUND";
 	}
+	
+	public StockPrice findStockPriceByName(String name) {
+		Optional<StockPrice> findByName = priceRepo.findByName(name);
+		if (findByName.isPresent()) {
+			return findByName.get();
+		}
+		return new StockPrice();
+	}
 
 	public StockPrice saveStockPrice(StockPrice stock) {
 		StockPrice save = priceRepo.save(stock);
